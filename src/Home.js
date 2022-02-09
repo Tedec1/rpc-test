@@ -31,7 +31,6 @@ const Home = () => {
     this will send user input and client wallet to the server and get a response,
     but for now it will just use a random number generator to test against
     */
-    // console.log("loading...");
     const computerGuess = getRandomInt(3);
     if((userInput + 1) % 3 === computerGuess){
       return `the computer guessed ${numToVal[computerGuess]} you guessed ${numToVal[userInput]}, you lose!`
@@ -43,9 +42,7 @@ const Home = () => {
   }
 
   const getRandomInt = (max) => {
-    const rand = Math.floor(Math.random() * max);
-    // console.log(rand);
-    return rand
+    return Math.floor(Math.random() * max);
   }
 
   return (
