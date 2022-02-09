@@ -1,7 +1,10 @@
 #list{
+    display: flex;
     margin: 10px;
+    justify-content: center;
 }
 
 .option{
     margin: 10px;
+    cursor: pointer;
 }
