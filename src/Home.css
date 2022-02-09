@@ -8,3 +8,14 @@
     margin: 10px;
     cursor: pointer;
 }
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home button{
+    margin-top: 10px;    
+    background-color: rgb(255, 255, 255);
+}

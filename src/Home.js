@@ -46,7 +46,7 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <div id="home">
       <span id="title">Pick Rock, Paper, or Scissors!</span>
       <div id="list">
         <Option disabled={loading} name="Rock" value={0} setSelect={setSelect} />
